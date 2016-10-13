@@ -26,7 +26,8 @@ $(function(){
 
   // Fill in this function that selects the text with id "change" and sets it text to the value in the text box.  Click "submit" to see if it worked.
   changeText = function() {
+       var text = $('input').val();
+        $("#change").text(val);
 
-
-  }
+  };
 });
